@@ -25,7 +25,7 @@ exports.config = {
     // of the config file unless it's absolute.
     //
     specs: [
-         './test/specs/aboutModule/login.spec.js'
+         './test/specs/loginModule/login.spec.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -58,7 +58,7 @@ exports.config = {
         platformName: 'iOS',
         'appium:platformVersion': '17.4.1',
         'appium:automationName': 'XCUITest',
-        'appium:udid': '00008101-000D18590EA0001E',
+        'appium:udid': '00008110-001565D90ABA201E',
         "appium:bundleId": "com.cardify.tinder",
         'appium:autoAcceptAlerts': "true",
         'appium:noReset': "true"

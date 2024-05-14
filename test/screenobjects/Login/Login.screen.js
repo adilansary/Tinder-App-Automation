@@ -83,6 +83,7 @@ class about {
         await commonUtils.doClick(commonUtils.doInputText(this.searchregionField, 5000, "United States"));
         await commonUtils.doClick(this.usaRegion, 5000);
     }
+    
     async userNameFromFaker(){
         console.log(basicUtils.userName)
     }
