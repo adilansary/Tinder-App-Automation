@@ -6,6 +6,8 @@ describe('About Module', () => {
     // });
     it('Number input page', async () => {
      await loginScreen.navigateToNumberInput();
+     await loginScreen.createProfile();
+     
     });
     // after(async () => {
     // });

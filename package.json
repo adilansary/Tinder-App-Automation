@@ -1,7 +1,7 @@
 {
     "name": "my-new-project",
     "type": "commonjs",
-    "devDependencies": {
+    "dependencies": {
         "@faker-js/faker": "^8.4.1",
         "@wdio/allure-reporter": "^8.34.0",
         "@wdio/appium-service": "^8.31.1",
@@ -11,17 +11,26 @@
         "@wdio/spec-reporter": "^8.31.1",
         "allure-commandline": "^2.27.0",
         "appium-xcuitest-driver": "^6.2.0",
-        "rimraf": "^5.0.5"
+        "rimraf": "^5.0.5",
+        "faker": "^6.6.6",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3",
+        "wdio": "^6.0.1"
     },
     "scripts": {
         "clearAllure": "rimraf allure-results && rimraf allure-report",
         "test": "npm run clearAllure && wdio run ./wdio.conf.js",
         "allureReport": "allure serve"
     },
-    "dependencies": {
-        "faker": "^6.6.6",
-        "ts-node": "^10.9.2",
-        "typescript": "^5.3.3",
-        "wdio": "^6.0.1"
+    "version": "1.0.0",
+    "description": "",
+    "main": "testConfig.js",
+    "directories": {
+        "test": "test"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "mocha": "^10.2.0"
     }
 }

@@ -4,6 +4,8 @@ class basicUtils {
     //     const randomUsername = faker.internet.userName();
     //     return randomUsername;
     // }
+    username= `Eddy`;
+    email = `eddyborn@gmail.com`
     
 }
 module.exports = new basicUtils();
